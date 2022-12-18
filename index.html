@@ -16,12 +16,12 @@
 
         <div class="row py-3">
             <div class="col">
-                <img class="me-3" width="25px" src="images/menuIcon.png" alt="">
+                <img class="me-3 d-sm-block d-none" width="25px" src="images/menuIcon.png" alt="">
                 <img width="90px" src="images/youtubeIcon.png" alt="">
             </div>
-            <div class="col">
-                <div class="row search-bar border border-2 py-1">
-                    <div class="col-11">
+            <div class="col ">
+                <div class="row search-bar border border-2 py-1 d-sm-block d-none">
+                    <div class="col-11>
                         <input class="w-75 border-0" type="text">
                     </div>
                     <div class="col-1 border-start d-flex justify-content-center">
@@ -29,11 +29,13 @@
                     </div>
 
                 </div>
+                <div class="row d-sm-none d-block">
+                    <div class="col bg-warning"><img class="w-25" src="images/searchIcon.png" alt=""></div>
+                </div>
             </div>
             <div class="col">
                 <div class="options float-end w-50 d-flex justify-content-around align-item-center">
-                    <img width="30px" src="images/createVideoIcon.png" alt="">
-                    <img width="30px" src="images/menuIcon.png" alt="">
+                    <img width="30px" class="d-sm-block d-none" src="images/createVideoIcon.png" alt="">
                     <img width="30px" src="images/notificationIcon.png" alt="">
                     <img width="30px" src="images/userIcon.png" alt="">
                 </div>
@@ -45,7 +47,7 @@
     <div class="container-fluid">
 
         <div class="row">
-            <div class="col-md-2 col-1 px-4">
+            <div class="col-md-2 col-1 bg-secondary d-sm-block d-none">
                 <div class="row py-2">
                     <div class="col d-flex">
                         <img width="25px" height="25px" class="me-4" src="images/homeIcon.png" alt="">
@@ -114,7 +116,7 @@
 
             </div>
 
-            <div class="col-md-10 col-11">
+            <div class="col-md-10 col-12 col-sm-11">
                 <div class="row border border-2 border-start-0 border-end-0 my-1 py-3">
                     <div class="col">
                         <span class="border rounded-pill px-2 bg-secondary bg-opacity-25 py-1">All</span>
@@ -495,6 +497,14 @@
                 </div>
 
             </div>
+        </div>
+
+        <div class="row bg-white position-fixed bottom-0 d-sm-none d-flex">
+            <div class="col"><img class="w-75" src="images/homeIcon.png" alt=""></div>
+            <div class="col"><img class="w-75" src="images/shortsIcon.png" alt=""></div>
+            <div class="col"><img class="w-75" src="images/plusIcon.png" alt=""></div>
+            <div class="col"><img class="w-75" src="images/subscriptionsIcon.png" alt=""></div>
+            <div class="col"><img class="w-75" src="images/libraryIcon.png" alt=""></div>
         </div>
 
     </div>
